@@ -1,25 +1,57 @@
 import { addBarGraph } from "./BarGraph";
 
+/*
+Car emissions data:
+https://www.bts.gov/content/estimated-national-average-vehicle-emissions-rates-vehicle-vehicle-type-using-gasoline-and
+
+
+
+
+
+
+
+
+*/
 const data2021 = [
   {
-    region: "Northeast",
-    population: 57159838,
-    growth: 17.2,
+    automobile: "Light-duty vehicles",
+    carbon_monoxide: 3.956,
+    nitrogen_oxides: 0.173,
   },
   {
-    region: "Midwest",
-    population: 68841444,
-    growth: 20.7,
+    automobile: "Light-duty trucks",
+    carbon_monoxide: 5.046,
+    nitrogen_oxides: 0.334,
   },
   {
-    region: "West",
-    population: 78667134,
-    growth: 38.3,
+    automobile: "Heavy-duty vehicles",
+    carbon_monoxide: 14.104,
+    nitrogen_oxides: 0.772,
   },
   {
-    region: "South",
-    population: 127235329,
-    growth: 38.3,
+    automobile: "Motorcycles",
+    carbon_monoxide: 13.2,
+    nitrogen_oxides: 0.64,
+  },
+  {
+    automobile: "Light-duty vehicles",
+    carbon_monoxide: 3.784,
+    nitrogen_oxides: .133,
+  },
+    {
+    automobile: "Light-duty trucks",
+    carbon_monoxide: 2.211,
+    nitrogen_oxides: 1.543,
+  },
+  {
+    automobile: "Heavy-duty vehicles",
+    carbon_monoxide: 1.923,
+    nitrogen_oxides: 3.822,
+  },
+  {
+    region: "Motorcycles",
+    carbon_monoxide: 4.418,
+    growth: 0.623,
   },
 ];
 
